@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kruz7\\Desktop\\Git\\ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj": {}
+    "C:\\Users\\ToufikLatreche\\Source\\Repos\\Fork_ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kruz7\\Desktop\\Git\\ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj": {
+    "C:\\Users\\ToufikLatreche\\Source\\Repos\\Fork_ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kruz7\\Desktop\\Git\\ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj",
+        "projectUniqueName": "C:\\Users\\ToufikLatreche\\Source\\Repos\\Fork_ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj",
         "projectName": "MyExistingProject",
-        "projectPath": "C:\\Users\\kruz7\\Desktop\\Git\\ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj",
-        "packagesPath": "C:\\Users\\kruz7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kruz7\\Desktop\\Git\\ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\obj\\",
+        "projectPath": "C:\\Users\\ToufikLatreche\\Source\\Repos\\Fork_ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\MyExistingProject.csproj",
+        "packagesPath": "C:\\Users\\ToufikLatreche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToufikLatreche\\Source\\Repos\\Fork_ps-visual-studio-2022-fundamentals\\Establishing the Basics\\MySecondProject\\MyExistingProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kruz7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ToufikLatreche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.sidev.uk/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -39,7 +40,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -50,7 +57,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

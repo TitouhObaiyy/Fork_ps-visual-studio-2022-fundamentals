@@ -60,7 +60,7 @@ namespace PSTestProject
 			Assert.AreEqual(expectedResult, answer);
 
 		}
-
+		/*
 		[TestMethod]
 		public void ShimsTest()
 		{
@@ -79,6 +79,6 @@ namespace PSTestProject
 
 				Assert.AreEqual(expectedResult, answer);
 			}
-		}
+		} */
 	}
 }

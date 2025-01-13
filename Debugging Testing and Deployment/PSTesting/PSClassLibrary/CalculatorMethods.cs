@@ -5,7 +5,7 @@
 		public static float Add(float x, float y)
 		{
 			Console.WriteLine("Adding {0} plus {1}", x, y);
-			return x + y;
+			return x - y; // changed from + to - .
 		}
 
 		public static float Subtract(float x, float y)
